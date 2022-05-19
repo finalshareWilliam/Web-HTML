@@ -8,6 +8,7 @@
 	</head>
 
 	<body>
+
 		<h1><em>Sobre esse site</em></h1>
 			<p>é um site de <strong>estudo e aprendizado.</strong></p>
 
@@ -41,15 +42,48 @@
 				<li>Aprender</li>
 				<li>Aplicar</li>
 			</ol>
+			
+		<hr>
 
 			<img src="Imagens/imagem.png" width="400">	<!-- pode ser utilizada a URL da pagina, width é largura e height é altura -->
 
-			<table border="2">
+		<hr>
+
+		<h2>Produtos</h2>
+
+			<table border="2" width="400">				<!-- tabela em HTML -->
 
 				<tr>
-					<td>
-						aa
-					</td>
+					<th>Codigo</th>						<!-- cabecalho da tabela -->
+					<th>Nome</th>
+					<th>Preco</th>
+				</tr>
+
+				<tr>
+					<td>001</td>						<!-- dados da tabela -->
+					<td>Notebook</td>
+					<td>R$5000,00</td>
+				</tr>
+
+				<tr>
+					<td>002</td>
+					<td><img src="Imagens/imagem.png" width="50"></td>					<!-- imagem dentro da tabela -->
+					<td>R$349,90</td>
+				</tr>
+
+				<tr>
+					<td>003</td>
+					<td><a href="http://www.google.com"> Clique aqui </a></td> 			<!-- colocando link na tabela -->
+					<td>R$0,00</td>
+				</tr>
+
+				<tr>
+					<td rowspan="2">004</td>											<!-- colocando 1 dado em 2 linhas  -->
+					<td colspan="2">Carro</td>											<!-- colocando 1 dado em 2 colunas -->
+				</tr>
+
+				<tr>
+					<td colspan="2">Carro</td>											<!-- colocando 1 dado em 2 colunas -->
 				</tr>
 				
 			</table>
